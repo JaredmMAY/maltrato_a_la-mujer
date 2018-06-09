@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Fondo de pagina*/
+body{ 
+background: #f59fbc;
+}
+
+
+
+/*Baner de la pagina*/
+header, .Contenido{
+	background: #fff;
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+header nav{
+	background: #ff00ff;
+	overflow: hidden;
+}
+header nav ul{
+	list-style:none;
+
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #f59fbc;
+}
+/*Contenido de la pagina*/
+.Contenido .info article{
+padding: 20px;
+background: #fff;
+margin-bottom: 20px;
+}
+.Contenido .info {
+
+}
+
+
+

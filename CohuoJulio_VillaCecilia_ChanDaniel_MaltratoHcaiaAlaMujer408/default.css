@@ -1,0 +1,170 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
+	background: #FFFFFF url(img/img01.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+
+h1, h2, h3 {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 20px;
+	line-height: 2em;
+}
+
+p {
+}
+
+
+/* fondo */
+
+#wrapper {
+}
+
+/* cuerpo de pagina */
+
+#header {
+	width: 880px;
+	height: 105px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 270px;
+	height: 105px;
+	margin: 0px;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	font: normal 36px serif;
+	color:blue;
+}
+
+#logo h1 a {
+	color: #FFFFFF;
+}
+
+#logo h2 {
+	margin: -2px 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 47px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) repeat-x left top;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	margin-left: 30px;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 32px;
+	margin-right: 2px;
+	padding: 15px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+}
+
+#menu a:hover, #menu {
+	color: #fff;
+}
+
+#splash {
+	width: 940px;
+	height: 255px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+
+
+/* Pagina */
+
+#page {
+	width:80% ;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #fff;
+}
+
+#page-bgtop {
+	margin-bottom: 20px;
+
+}
+
+/* Contenido */
+
+#content {
+	width: 90%;
+}
+.post {
+	margin: 0px 0px 30px 0px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.post .title {
+	margin: 0px;
+	padding: 0px 0px 5px 0px;
+	color: #515151;
+    text-align: center;
+}
+
+.post .title a {
+	padding: 4px 35px 4px 15px;
+	background: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
